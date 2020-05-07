@@ -1,4 +1,4 @@
-# [Jewels and Stones] (https://leetcode.com/problems/jewels-and-stones/)
+# [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 [Challenge card](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317)
 
 You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
