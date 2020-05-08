@@ -22,5 +22,5 @@ coordinates[i].length == 2
 -10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4
 coordinates contains no duplicate point.
 
-### Beat 100% of the Python3 solutions
+#### Beat 100% of the Python3 solutions
 ![TopCoder](TopCoder.png)
