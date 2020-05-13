@@ -9,14 +9,14 @@ class Solution(object):
         if len(trust) < N-1:
             return -1
         
-        truster = defaultdict(int)
+        truster = set()
         trustee = defaultdict(int)
         
         for (p1, p2) in trust:
-            truster[p1] += 1
+            truster.add(p1)
             trustee[p2] += 1
         
         for judge, trusted_by in trustee.items():
-            if trusted_by == N-1 and judge not in truster.keys():
+            if trusted_by == N-1 and judge not in truster:
                 return judge    
         return -1
