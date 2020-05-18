@@ -1,33 +1,25 @@
-from collections import Counter
-class Solution:
-    
-    def findAnagrams(self, s: str, p: str) -> List[int]:
-        lp = len(p)
-        ls = len(s)
-        if s == '' or p == '' or lp>ls: return []      
 
-        s = [ord(ch) for ch in s]
-        p = [ord(ch) for ch in p]
-
-        rp = []                             #region proposal
-        sum_p = sum(p)       
-        sum_s = sum(s[0:lp])
-        
-        if sum_s == sum_p:
-            rp.append(0)
-
-        lim = ls - lp
-        for i in range(0, lim):
-            sum_s = sum_s -s[i] +s[i+lp]
-            if sum_s == sum_p:
-                rp.append(i+1)
-        if rp==[]:
-            return []
-        
-        l=[]
-        counter_p = Counter(p)
-        for i in rp:
-            counter_s = Counter(s[i:i+lp])
-            if counter_s == counter_p:
-                l.append(i)
-        return l
+            res.val += l1.val + l2.val
+            print (res.val)
+            if flag := res.val>9:
+                res.val%=10
+                
+            l1 = l1.next
+            l2 = l2.next
+            if not (l1 or l2):
+                if flag:
+                    res.next = ListNode(val = 1)
+                return top
+            
+            if not l1 and l2:
+                res.next = ListNode(val = flag+l2.val)
+                res.next.next = l2.next
+                return top
+            elif not l2 and l1:
+                res.next = ListNode(val = flag+l1.val)
+                res.next.next = l1.next
+                break
+            
+            res.next = ListNode(val = flag)
+            res=res.next
+        return top
