@@ -1,4 +1,4 @@
-# [Counting Bits](https://leetcode.com/problems/counting-bits/Counting Bits)
+# [Counting Bits](https://leetcode.com/problems/counting-bits/Counting%20Bits)
 [Challenge card](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3343/)
 
 Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array.
