@@ -1,4 +1,4 @@
-# [Sort Characters By Frequency](https://leetcode.com/problems/interval-list-intersections/)
+# [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 [Challenge card](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3338/)
 
 Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order.
