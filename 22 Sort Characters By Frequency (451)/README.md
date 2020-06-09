@@ -1,5 +1,5 @@
 # [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
-[Challenge card](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3337/)\
+[Challenge card](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3337/)
 
 Given a string, sort it in decreasing order based on the frequency of characters.
 
